@@ -1,0 +1,29 @@
+
+{
+"events":[
+    {
+        "name": "Coachella",
+        "date": "May 2025",
+        "image": "/src/assets/avantExpCoachella.jpeg",
+        "caption": "Coachella is a world-renowned festival held in the California desert, featuring performances from top artists, immersive art installations, and a vibrant cultural experience. Explore 14 homes in near in Indio, CA.",
+        "location": "Indio, CA"
+
+    },
+    {
+        "name": "Art Basel",
+        "date": "December 2025",
+        "image": "/src/assets/avantArtBasel.png",
+        "caption": "Art Basel is a global art fair that connects artists, galleries, and collectors. The fair provides a platform for galleries to sell and show their work, and it also helps local art programs grow.",
+        "location": "Paris, France"
+
+    },
+    {
+        "name": "Sun Dance Festival",
+        "date": "January 2025",
+        "image": "/src/assets/avantSundance.jpeg",
+        "caption": "Dramatic and documentary films, short films, episodic content, performances, exhibitions, virtual reality experiences, and filmmaker conversations",
+        "location": "Park City, Salt Lake City"
+    }
+]
+
+}
