@@ -1,0 +1,34 @@
+{
+    "homes":
+    [
+        {
+            "image": "/src/assets/avantHome1.png",
+            "location": "Austin, Texas",
+            "title": "Modern Enclosure",
+            "description": "3 Bed • 3 Bath • 8 Guests • Pool"
+            
+        },
+        {
+            "image": "/src/assets/avantHome2.png",
+            "location": "Los Angeles, California",
+            "title": "Creative Escape",
+            "description": "3 Bed • 3 Bath • 8 Guests • Pool"
+            
+        },
+        {
+            "image": "/src/assets/avantHome3.png",
+            "location": "Miami, Florida",
+            "title": "Cozy Space",
+            "description": "3 Bed • 3 Bath • 8 Guests • Pool"
+            
+        },
+        {
+            "image": "/src/assets/avantHome4.png",
+            "location": "Santa Barbra, California",
+            "title": "Breeze Lounge",
+            "description": "3 Bed • 3 Bath • 8 Guests • Pool"
+            
+        }
+
+    ]
+}
