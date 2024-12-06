@@ -1,14 +1,14 @@
-import avantstayLogo from "../assets/avantstay.svg"
-export default function Header(){
+export default function Header({ color, logo, openPage2 }){
     return(
         <>
         <header>
-            <img src={avantstayLogo}></img>
+            <img src={logo}></img>
             <ul>
-                <h5>Events & Offsites</h5>
-                <h5>Vacation Rental Management</h5>
-                <h5>Buy a Vacation Home</h5>
-                <h5>Homeowner Portal</h5>
+                <h5 style={{color: color} } onClick={() => openPage2(true)}>Favorites</h5>
+                <h5 style={{color: color}}>Explore</h5>
+                <h5 style={{color: color}}>Vacation Rental</h5>
+                <h5 style={{color: color}}>Buy a Vacation Home</h5>
+                <h5 style={{color: color}}>Homeowner Portal</h5>
             </ul>
 
         </header>

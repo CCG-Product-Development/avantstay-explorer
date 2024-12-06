@@ -3,10 +3,11 @@ import arrow from "../assets/avanrExpSwitch.svg"
 import seclector1 from "../assets/avantSelector1.svg"
 import seclector2 from "../assets/avantSelector2.svg"
 import seclector3 from "../assets/avantSelector3.svg"
+import avantstayLogo from "../assets/avantstay.svg"
 import eventsData from "./events.json"
 import { useState} from "react"
 const selectors = [seclector1, seclector2, seclector3]
-export default function Experiences(){
+export default function Experiences({ openPage, setExperience }){
     const [eventIndex, setEventIndex] = useState(0)
     const currentEvent = eventsData.events[eventIndex]
     console.log(currentEvent, experienceImg)
@@ -27,7 +28,12 @@ export default function Experiences(){
                             <h6 className="expDate"> {currentEvent.date}</h6>
                             <h6 className="expLocation"> {currentEvent.location}</h6>
                         </div>
-                        <button className="ExploreButton"> <h4> Explore</h4></button>
+                        <button className="ExploreButton" 
+                        onClick={() => {
+                            openPage(true)
+                            setExperience(currentEvent)
+                            }
+                            }> <h4> Explore</h4></button>
                     </article>
             
                 </div>
